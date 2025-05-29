@@ -4,3 +4,12 @@ on:
     push:
         branches:
             -main
+
+
+jobs:
+    MY-Deploy-Job:
+        runs-on: unbuntu-latest
+
+        steps:
+            -name: hello word 출력하기
+                run: echo "hello word"
