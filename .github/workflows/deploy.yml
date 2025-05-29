@@ -8,8 +8,8 @@ on:
 
 jobs:
     MY-Deploy-Job:
-        runs-on: unbuntu-latest
+        runs-on: ubuntu-latest
 
         steps:
-            -name: hello word 출력하기
-                run: echo "hello word"
+            - name: hello world 출력하기
+              run: echo "hello world"
