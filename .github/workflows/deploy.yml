@@ -1,15 +1,15 @@
-name: Github Actions 실행시켜보기
-
-on:
-    push:
-        branches:
-            -main
-
-
-jobs:
-    MY-Deploy-Job:
-        runs-on: ubuntu-latest
-
-        steps:
-            - name: hello world 출력하기
-              run: echo "hello world"
+1  name: Github Actions 실행시켜보기
+2
+3  on:
+4      push:
+5          branches:
+6              -main 
+7
+8
+9  jobs:
+10     MY-Deploy-Job:
+11         runs-on: ubuntu-latest
+12
+13         steps:
+14             - name: hello world 출력하기
+15               run: echo "hello world"
